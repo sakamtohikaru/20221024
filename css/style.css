@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  width: 100%;
+  padding: 20px 0;
+  color: rgb(32, 5, 164);
+  display: flex;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+nav{
+  display: flex;
+  margin: 0 0 0 auto;
+}
+
+li{
+  display: inline-block;
+  margin: 0 px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(32, 5, 164);
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+main{
+  padding: 100px 0;
+  display: flex;
+}
+
+p{
+  position: absolute;
+  top: 430px;
+  font-size: 60px;
+}
+
+img{
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  margin: 0 0 0 auto;
+  z-index: 1;
+}
+
+div{
+  position: absolute;
+  background-color: rgb(7, 7, 126);
+  width: 950px;
+  height: 150px;
+  top:500px;
+  z-index: 0;
+}
